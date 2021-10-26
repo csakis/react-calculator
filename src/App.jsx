@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="container mt-3">
       <h2 className="text-center">Calculator</h2>
-      <div className="col-sm-6 offset-sm-3">
+      <div className="col-lg-6 offset-lg-3">
       <Display />
       <Result />
       <Calculator />

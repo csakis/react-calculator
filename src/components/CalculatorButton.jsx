@@ -11,7 +11,7 @@ function CalculatorButton(props) {
   };
 
   return (
-    <div className={`text-center col-sm-${props.button.width}`}>
+    <div className={`text-center col-${props.button.width}`}>
       <div className="d-grid gap-1">
         <button
           ref={button}
